@@ -21,7 +21,7 @@ const todosReducer = (state = initialState, action) => {
     case RECEIVE_TODOS:
       return action.todos
     case RECEIVE_TODO:
-    let todo = {[action.todo.id]: action.todo}
+      let todo = {[action.todo.id]: action.todo}
       return Lodash.merge({}, state, todo)
     default:
       return state;

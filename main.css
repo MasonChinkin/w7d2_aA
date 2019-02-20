@@ -1,0 +1,25 @@
+body {
+  background: powderblue;
+}
+
+ul, form {
+  padding: 20px;
+  border: 2px black solid;
+  border-radius: 10px;
+  background: lightgray;
+  width: 500px;
+  margin: 20px auto 20px auto;
+}
+
+li {
+  list-style-type: square;
+}
+
+form input {
+  margin: 0 0 10px 10px;
+}
+
+form input {
+  margin: 0 0 10px 10px;
+  border-radius: 5px;
+}
